@@ -1,0 +1,128 @@
+@import url(./fonts/fonts.css);
+
+.body {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 1000px;
+  font-family: 'Golos', Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  height: min-content;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 45px 0 40px;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  column-gap: 28px;
+}
+
+.header__text {
+  font-size: 14px;
+}
+
+.header__line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin-top: 18px;
+  background: linear-gradient(to left, #73BE43 0, #73BE43 50%, #E9262D 50%, #E9262D 100%);
+}
+
+.header__short-line {
+  background-color: #E9262D;
+  max-width: 385px;
+  width: 40%;
+  height: 5px;
+  position: absolute;
+}
+
+.header__logo {
+  background-image: url(./images/1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 33px;
+}
+
+.body__header {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 30px;
+  line-height: 40px;
+}
+
+.body__line {
+  height: 5px;
+  width: 100%;
+  margin-top: 26px;
+  background: linear-gradient(to left, #73BE43 0, #73BE43 50%, #E9262D 50%, #E9262D 100%);
+}
+
+.body__button {
+  width: 189px;
+  height: 52px;
+  margin: 20px auto 0;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #cacaca;
+}
+
+.body__button:hover:enabled{
+  cursor: pointer;
+}
+
+.card-flip {
+  max-width: 940px;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.card-flip__item {
+  border: 1px solid #C2C3C6;
+  border-radius: 15px;
+  max-width: 300px;
+  min-height: 470px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-flip__img {
+  max-width: 243px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.card-flip__header {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.card-flip__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #69696C;
+  margin: 10px 0 0;
+}
+
+.card-flip__button {
+  background-image: url(./images/flip.svg);
+  width: 52px;
+  height: 52px;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
